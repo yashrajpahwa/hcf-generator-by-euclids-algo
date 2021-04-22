@@ -1,3 +1,5 @@
+# Euclids Algorithm HCF Generator
+
 Get the HCF of two numbers by entering them into the command line
 
 > Coded in python without any dependencies

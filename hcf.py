@@ -1,10 +1,10 @@
 # The Euclids Division Lemma is "a = bq + r"
 
-def getHCF(x:int, y:input):
-  a:int = int(x)
-  b:int = int(y)
-  q:int = int(a // b)
-  r:int = int(a % b)
+def getHCF(x, y):
+  a = int(x)
+  b = int(y)
+  q = int(a // b)
+  r = int(a % b)
   
   print('\nSteps\n')
   # Printing the euclids division lemma
@@ -25,7 +25,7 @@ def getHCF(x:int, y:input):
 
     
   
-x: int = int(input('Please enter the first number - '))
-y: int = int(input('Please enter the second number - '))
+x = int(input('Please enter the first number - '))
+y = int(input('Please enter the second number - '))
 
 getHCF(x, y)

@@ -24,7 +24,7 @@ function getHCF(x, y) {
   }
 
   if (r === 0) {
-    console.log("\nThe HCF is", b);
+    console.log(`\nThe HCF is ${b}`);
   }
 }
 
